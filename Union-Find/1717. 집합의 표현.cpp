@@ -12,7 +12,7 @@
 using namespace std;
 struct UnionFind {
 	//연결관계를 표현하는 parent
-	//rank[i]: 루트인 i의 높이
+	//rank[i]: 루트인 i의 랭크
 	vector<int> parent, rank;
 	//init
 	UnionFind(int n) {
